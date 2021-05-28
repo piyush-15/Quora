@@ -1,0 +1,72 @@
+#col1{
+    height: max-content;
+    text-align: center;
+}
+#ul{
+    list-style-type: none;
+}
+#container1{
+margin-top: 40px;
+align-items: center;
+}
+.container2{
+    border: black solid 1px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: relative; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /* background-color: rgb(0,0,0); Fallback color */
+    /*background-color: rgba(0,0,0,0.4);  Black w/ opacity */
+    margin-left: 25%;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #submit{
+      margin-left: 87%;
+      margin-top: 9px;
+      border-radius: 10px;
+  }
+  #myBtn{
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: 30px;
+      background-color: white;
+      color: gray;
+      font-weight: bold;
+      border-radius: 20px;
+      box-shadow: none;
+      border : black solid 1px
+  }
